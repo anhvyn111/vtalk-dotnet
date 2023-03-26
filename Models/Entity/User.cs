@@ -2,6 +2,7 @@
 using Model.Interface;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,7 @@ namespace Model.Entity
         public virtual string FirstName { get; set; }
         public virtual string LastName { get; set; }
         public virtual DateTime Birth { get; set; }
+        [Column("Gender", TypeName = "CHAR(10)")]
         public virtual Gender Gender { get; set; }
         public virtual string PhoneNumber { get; set; }
         public virtual string Email { get; set; }

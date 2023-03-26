@@ -10,6 +10,10 @@ namespace Repository.Interface
 {
     public interface IUserRepo
     {
+        Task<User> GetById(Guid id);
+        Task<User> GetByPhoneNumber(string phoneNumber);
+        Task<User> GetByEmail(string email);
+        Task<User> GetUserByFilter(FilterUserDto filterUserDto);
         Task<User> AddUser(User user);
         bool IsUserEmailExisted(string email);
         bool IsUserPhoneNumberUsed(string phoneNumber);

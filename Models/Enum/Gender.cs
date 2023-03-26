@@ -10,8 +10,8 @@ namespace Model.Enum
     public enum Gender
     {
         [Description("Male")]
-        Male,
+        Male = 0,
         [Description("Female")]
-        Female
+        Female = 1,
     }
 }

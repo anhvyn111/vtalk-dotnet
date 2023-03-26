@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIConfig", "DIConfig\DIConf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{CCB7514F-A6E1-4C02-BDE6-5486D1FF0302}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConfig", "AppConfig\AppConfig.csproj", "{12E649A1-6B35-45D7-9194-8EF4D9FCA6F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppConfig", "AppConfig\AppConfig.csproj", "{12E649A1-6B35-45D7-9194-8EF4D9FCA6F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapper", "Mapper\Mapper.csproj", "{5903DC45-5920-4760-AC07-125FAB25DE5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{12E649A1-6B35-45D7-9194-8EF4D9FCA6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12E649A1-6B35-45D7-9194-8EF4D9FCA6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12E649A1-6B35-45D7-9194-8EF4D9FCA6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5903DC45-5920-4760-AC07-125FAB25DE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5903DC45-5920-4760-AC07-125FAB25DE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5903DC45-5920-4760-AC07-125FAB25DE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5903DC45-5920-4760-AC07-125FAB25DE5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
